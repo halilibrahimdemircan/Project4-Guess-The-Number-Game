@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    border: solid;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-color: rgb(43, 103, 122);
+    
+}
+.container-game{
+    /* border: solid; */
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    text-align: center;
+    background-color: white;
+    
+}
+p{
+    margin: 20px;
+}
+.input{
+    border-radius: 5px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    outline:none;
+    border: none;
+    box-shadow: 5px 10px 18px #888888;
+}
+.button{
+   background-color: purple;
+   margin: 20px;
+   border-radius: 5px;
+   color: white;
+   width: 80px;
+   height: 25px;
+   border:none;
+}
